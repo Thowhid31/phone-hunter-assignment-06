@@ -18,7 +18,7 @@ const searchButton = () => {
         .then(res => res.json())
         .then (data => displayPhones(data.data));
 
-        inputBox.vlaue = '';
+        document.getElementById('input-value').value = '';
         geterror.innerText = '';
     }
 
